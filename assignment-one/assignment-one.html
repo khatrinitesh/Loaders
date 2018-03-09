@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Preloader</title>
+	<link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+	
+	<div class="preloader">
+		<div class="status"></div>
+	</div>
+	<!-- JS -->
+	<script type="text/javascript" src='js/jquery-1.12.0.min.js'></script>
+	<script type="text/javascript" src='js/jquery.mixitup.min.js'></script>		
+	<script type="text/javascript">
+		$(window).load(function(){
+			$(".preloader").fadeOut(1000);
+			$(".status").fadeOut(1000);
+		});
+	</script>
+</body>
+</html>
